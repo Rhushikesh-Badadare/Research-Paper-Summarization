@@ -26,3 +26,7 @@ While our main goal was to make summaries of academic papers, we experimented wi
 ## Summary
 There are state of the art methods, such as transformers, which do a good job at summarization but none of which have been applied to the domain of research paper summarization. Our task was to summarize research papers using analytical method, extractive and we have tried to measure performances of the tasks. We mined research papers under the topic of Computer Science from the ScienceDirect website using the method provided in the research paper “A Supervised Approach to Extractive Summarisation of Scientific Papers”[1]. We spent quite some time processing the data as the output from the mining algorithm was messy. We created two models for extractive method, and we trained and tested them. The faults in our models were substantially different. While our extractive model produced grammatically coherent but irrelevant summaries and Also our models did not perform well, more training time and computational power would definitely improve it. 
 
+## Data to fiddle with
+Google Drive links to the data: <br>
+[Parsed_Papers](https://drive.google.com/drive/folders/1Xz78mg_5LLQUhumIqwQYw93apSsO3DFi) <br>
+[glove.6B.50d.txt](https://www.kaggle.com/datasets/watts2/glove6b50dtxt)
